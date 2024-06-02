@@ -38,6 +38,12 @@ docker-compose build
 docker-compose run --rm node sh -c 'npx create-react-app react-app --template typescript'
 ```
 
+3. react-router-domのインストール：
+
+```zsh
+docker-compose run --rm node sh -c 'cd react-practice-todo && npm install react-router-dom'
+```
+
 4. dockerコンテナの立ち上げ：
 
 ```zsh
